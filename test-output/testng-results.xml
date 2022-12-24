@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T19:54:04Z" name="Default suite" finished-at="2022-12-05T19:56:10Z" duration-ms="125686">
+    <groups>
+    </groups>
+    <test started-at="2022-12-05T19:54:04Z" name="Default test" finished-at="2022-12-05T19:56:10Z" duration-ms="125686">
+      <class name="eduTestNG.DataProviders">
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:eduTestNG.DataProviders@29647f75]" started-at="2022-12-05T11:54:04Z" name="verifyLogin" data-provider="getLoginData" finished-at="2022-12-05T11:55:27Z" duration-ms="82890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satishgangwani19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sati1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:eduTestNG.DataProviders@29647f75]" started-at="2022-12-05T11:55:27Z" name="verifyLogin" data-provider="getLoginData" finished-at="2022-12-05T11:55:49Z" duration-ms="21799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satishgangwani19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sati1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:eduTestNG.DataProviders@29647f75]" started-at="2022-12-05T11:55:49Z" name="verifyLogin" data-provider="getLoginData" finished-at="2022-12-05T11:56:10Z" duration-ms="20921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satishskjb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sati1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- eduTestNG.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
