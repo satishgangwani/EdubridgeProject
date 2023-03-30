@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 
@@ -16,7 +17,13 @@ public class LearningHover {
 	System.setProperty("webdriver.chrome.driver", "E:\\Selenium_1\\Chrome driver\\chromedriver.exe");
 
 	//Launch the browser
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver;
+	
+	ChromeOptions options = new ChromeOptions();
+	
+	options.addArguments("--remote-allow-origins=*");
+
+	driver = new ChromeDriver(options);
 
 	//launch application
 	driver.get("https://www.amazon.in/");

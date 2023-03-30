@@ -58,3 +58,11 @@ public class HandlingTables {
 	}
 
 }
+
+
+//*[@id="main"]/div[4]/table/tbody/tr[2]/td[1]
+//*[@id="main"]/div[4]/table/tbody/tr[2]/td[2]
+
+
+
+

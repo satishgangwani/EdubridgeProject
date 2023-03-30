@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Suite Test" parallel="false">
+
+<parameter name = "browser" value = "chrome"/>
+<parameter name = "url" value = "https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <test name="ParameterTest">
+    <classes>
+      <class name="eduTestNG.ParameterizationUsingXML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

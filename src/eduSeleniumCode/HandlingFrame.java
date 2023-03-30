@@ -28,6 +28,9 @@ public class HandlingFrame {
 	
 	driver.findElement(By.xpath("//a[@target = '_top']/child::img[@alt = 'Laptops']")).click();
 	
+	//Switch back to the main window 
+	//driver.switchTo().defaultContent();
+	
 
 	}
 

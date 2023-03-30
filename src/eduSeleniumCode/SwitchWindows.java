@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SwitchWindows {
 
@@ -15,7 +16,13 @@ public class SwitchWindows {
 	System.setProperty("webdriver.chrome.driver", "E:\\Selenium_1\\Chrome driver\\chromedriver.exe");
 
 	//Launch the browser
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver;
+	
+	ChromeOptions options = new ChromeOptions();
+	
+	options.addArguments("--remote-allow-origins=*");
+
+	driver = new ChromeDriver(options);
 		
 	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	
@@ -36,12 +43,6 @@ public class SwitchWindows {
 	driver.switchTo().window(a.get(0));
 	
 	System.out.println(driver.getTitle());
-	
-	
-	
-	
-	
-	
 	
 	}
 

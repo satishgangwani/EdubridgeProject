@@ -9,7 +9,8 @@ public class HandlingEditBox {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Instantiate the driver		
+		//Instantiate the driver	
+	
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium_1\\Chrome driver\\chromedriver.exe");
 
 		//Launch the browser
@@ -23,6 +24,8 @@ public class HandlingEditBox {
 		WebElement password = driver.findElement(By.id("password"));
 		
 		password.sendKeys("Sati1234");
+		
+		
 
 	}
 
